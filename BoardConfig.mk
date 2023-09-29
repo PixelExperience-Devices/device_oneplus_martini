@@ -92,10 +92,10 @@ ODM_MANIFEST_FILES += $(DEVICE_PATH)/manifest_odm.xml
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
 
 # Kernel
-TARGET_KERNEL_CLANG_VERSION := r487747c
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c
-TARGET_KERNEL_ADDITIONAL_FLAGS += LD=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c/bin/ld.lld
-TARGET_KERNEL_ADDITIONAL_FLAGS += AR=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c/bin/llvm-ar
+TARGET_KERNEL_CLANG_VERSION := r498229b
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r498229b
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r498229b/bin/ld.lld
+TARGET_KERNEL_ADDITIONAL_FLAGS += AR=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r498229b/bin/llvm-ar
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
