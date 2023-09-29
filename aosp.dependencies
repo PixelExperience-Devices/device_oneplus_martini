@@ -6,8 +6,8 @@
     "branch"       : "thirteen"
   },
   {
-    "repository"  : "inferno0230/clang-r487747c",
-    "target_path" : "prebuilts/clang/host/linux-x86/clang-r487747c",
+    "repository"  : "inferno0230/clang-r498229b",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-r498229b",
     "branch"      : "thirteen",
     "remote"      : "gitlab"
   },
